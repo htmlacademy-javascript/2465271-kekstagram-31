@@ -50,3 +50,5 @@ const createPhotoDescription = () => ({
 });
 // Создаем результирующий массив
 const resultDescriptions = Array.from({length: SIMILAR_OBJECT_COUNT}, createPhotoDescription);
+
+console.debug(resultDescriptions);
